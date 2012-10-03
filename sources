@@ -1,0 +1,34 @@
+!if $(386)
+TARGETNAME=arrived32
+!elseif $(AMD64)
+TARGETNAME=arrived64
+!else
+TARGETNAME=arrived
+!endif
+TARGETPATH=obj
+TARGETTYPE=PROGRAM
+UNICODE=1
+
+UMTYPE=console
+USE_MSVCRT=1
+USE_STL=1
+STL_VER=70
+
+# Exception handling on stack
+USER_C_FLAGS=$(USER_C_FLAGS) /EHsc
+
+# Additional defines for the C/C++ preprocessor
+!IF $(UNICODE)
+UMENTRY=wmain
+C_DEFINES=$(C_DEFINES) /DUNICODE /D_UNICODE
+!ELSE
+UMENTRY=main
+C_DEFINES=$(C_DEFINES) /DMBCS /D_MBCS
+!ENDIF
+
+INCLUDES=$(DDK_INC_PATH);$(CRT_INC_PATH);$(SDK_INC_PATH)
+
+TARGETLIBS=$(SDK_LIB_PATH)\kernel32.lib $(SDK_LIB_PATH)\user32.lib $(SDK_LIB_PATH)\shell32.lib
+
+SOURCES=arrived.cpp \
+        exeversion.rc
