@@ -1,6 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///
-/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN
+/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN/CC0
+/// (with the exception of parts that are (C) FRISK Software International)
 ///
 /// Original filename: arrived.cpp
 /// Project          : arrived
@@ -320,5 +321,5 @@ int __cdecl _tmain(int argc, _TCHAR *argv[])
         ::TranslateMessage(&msg); 
         ::DispatchMessage(&msg); 
     } 
-    return msg.wParam; 
+    return (int)msg.wParam; 
 }
