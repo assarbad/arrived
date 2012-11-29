@@ -32,7 +32,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 #ifndef __SIMPLEBUFFER_H_VER__
 #define __SIMPLEBUFFER_H_VER__ 308
-// $Id$
 #if defined(_MSC_VER) && (_MSC_VER >= 1020)
 #pragma once
 #endif // Check for "#pragma once" support
