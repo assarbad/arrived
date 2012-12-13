@@ -1,14 +1,14 @@
-﻿arrived
-=======
+﻿``arrived``
+===========
 :Author: Oliver Schneider
 
 
 About
 -----
-arrived is a little Windows tool that will invoke a command whenever
+``arrived`` is a little Windows tool that will invoke a command whenever
 a new USB device, or more specifically *drive*, arrives in the system.
 That is, whenever you plug in or remove a USB drive such as a USB key
-or an external hard drive.
+or an external hard drive. So now you also know where the name came from.
 
 Installation
 ------------
