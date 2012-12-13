@@ -13,7 +13,9 @@ or an external hard drive. So now you also know where the name came from.
 Installation
 ------------
 No installation required. Download the binaries (32 and 64bit) from
-`my website`_.
+`my website`_. Use an archiver to unpack the archive, I recommend 7zip,
+and then place the ``.exe`` files into a folder listed in your ``PATH``
+environment variable.
 
 Requirements
 ------------
