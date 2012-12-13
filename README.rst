@@ -24,6 +24,7 @@ Usage
 -----
 
 Syntax::
+
     arrived <command> [-only=drive_type,...]
 
 The default if ``--only`` is not explicitly given is ``removable``.
