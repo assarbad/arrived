@@ -74,5 +74,5 @@ the ``common/SimpleBuffer.h`` file.
 
 .. _my website: https://assarbad.net/stuff/arrived.zip
 .. _premake4: https://bitbucket.org/windirstat/windirstat/src/tip/common/premake4.exe
-.. _Bitbucket: https://bitbucket.org/assarbad/looklink/downloads
+.. _Bitbucket: https://bitbucket.org/assarbad/arrived/downloads
 .. _7-Zip: http://7-zip.org/
