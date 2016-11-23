@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///
-/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN
+/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN/CC0
 ///
 /// Useful macros
 ///

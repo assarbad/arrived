@@ -67,7 +67,7 @@ Otherwise the following drive types should be valid:
 
 License
 -------
-Parts written by me as a private person are in the PUBLIC DOMAIN (CC0),
+Parts written by me as a private person are in the PUBLIC DOMAIN/CC0,
 whereas the utility class from FRISK Software International can be used
 under the terms of the BSD license. See the license terms at the top of
 the ``common/SimpleBuffer.h`` file.

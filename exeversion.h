@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///
-/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN
+/// Written 2008-2009, Oliver Schneider (assarbad.net) - PUBLIC DOMAIN/CC0
 ///
 /// Defines for the version information in the resource file
 ///
@@ -30,7 +30,7 @@
 #define TEXT_FILEDESC          Receives notifications about connecting or disconnecting devices // component description
 #define TEXT_COMPANY           Oliver Schneider (assarbad.net) // company
 #define TEXT_MODULE            arrived // module name
-#define TEXT_COPYRIGHT         Written EXE_YEAR, TEXT_COMPANY (PUBLIC DOMAIN) // copyright information
+#define TEXT_COPYRIGHT         Written EXE_YEAR, TEXT_COMPANY (PUBLIC DOMAIN/CC0) // copyright information
 #define TEXT_INTERNALNAME      arrived.exe // copyright information
 
 #endif // __EXEVERSION_H_VERSION__
