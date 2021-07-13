@@ -1,7 +1,5 @@
-﻿=============
- ``arrived``
+﻿ ``arrived``
 =============
-:Author: Oliver Schneider
 
 
 About
@@ -75,4 +73,4 @@ the ``common/SimpleBuffer.h`` file.
 .. _my website: https://assarbad.net/stuff/arrived.zip
 .. _premake4: https://sourceforge.net/projects/premake4-wds/files/
 .. _SourceForge: https://sourceforge.net/projects/arrived/files/
-.. _7-Zip: http://7-zip.org/
+.. _7-Zip: https://7-zip.org/
