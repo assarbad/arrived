@@ -14,7 +14,7 @@ or an external hard drive. So now you also know where the name came from.
 Installation
 ------------
 No installation required. Download the binaries (32 and 64bit) from
-`my website`_ or `Bitbucket`_. Use an archiver to unpack the archive,
+`my website`_ or `SourceForge`_. Use an archiver to unpack the archive,
 I recommend `7-Zip`_, and then place the ``.exe`` files into a folder
 listed in your ``PATH`` environment variable.
 
@@ -73,6 +73,6 @@ under the terms of the BSD license. See the license terms at the top of
 the ``common/SimpleBuffer.h`` file.
 
 .. _my website: https://assarbad.net/stuff/arrived.zip
-.. _premake4: https://bitbucket.org/windirstat/windirstat/src/tip/common/premake4.exe
-.. _Bitbucket: https://bitbucket.org/assarbad/arrived/downloads
+.. _premake4: https://sourceforge.net/projects/premake4-wds/files/
+.. _SourceForge: https://sourceforge.net/projects/arrived/files/
 .. _7-Zip: http://7-zip.org/
